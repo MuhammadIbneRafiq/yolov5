@@ -1,0 +1,12 @@
+# Dataset YAML for testing - proper image/label linking
+path: c:\Users\x1 yoga\Documents\RA_5m_5L_6m_6L_7m_8m_9m_10m_11m  # dataset root dir
+
+# Images and Labels
+train: only_labels/SnowPole Detection A Comprehensive Dataset for Detection and Localization Using LiDAR Imaging in Nordic Winter Conditions/SnowPole_Detection_Dataset/combined_color/train
+val: only_labels/SnowPole Detection A Comprehensive Dataset for Detection and Localization Using LiDAR Imaging in Nordic Winter Conditions/SnowPole_Detection_Dataset/combined_color/valid
+test: only_labels/SnowPole Detection A Comprehensive Dataset for Detection and Localization Using LiDAR Imaging in Nordic Winter Conditions/SnowPole_Detection_Dataset/combined_color/test
+
+# Classes  
+nc: 1
+names:
+  0: object 
